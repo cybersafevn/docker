@@ -17,8 +17,8 @@ on:
 
 env:
   # Use docker.io for Docker Hub if empty
-  REGISTRY: ghcr.io
-  # github.repository as <account>/<repo>
+  REGISTRY: docker.io
+  # github.repository as <fressor>/<repo>
   IMAGE_NAME: ${{ github.repository }}
 
 
