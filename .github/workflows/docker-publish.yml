@@ -42,12 +42,12 @@ jobs:
         with:
           registry: ${{ env.REGISTRY }}
           username: ${{ github.actor }}
-          password: ${{ secrets.ghp_GITHUB-TOKEN }}
+          password: ${{ secrets.ghp_d9410644-a6d0-4b23-8d90-18c621acabe4 }}
 
       # Extract metadata (tags, labels) for Docker
       # https://github.com/docker/metadata-action
       - name: Extract Docker metadata
-        id: meta
+        id: fressor
         uses: docker/metadata-action@98669ae865ea3cffbcbaa878cf57c20bbf1c6c38
         with:
           images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
