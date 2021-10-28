@@ -18,7 +18,7 @@ on:
 env:
   # Use docker.io for Docker Hub if empty
   REGISTRY: ghcr.io
-  # github.repository as <fressor>/<cybersafevn/docker>
+  # github.repository as <github>/<repo>
   IMAGE_NAME: ${{ github.repository }}
 
 
